@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14350" started-at="2018-02-03T10:35:30Z" finished-at="2018-02-03T10:35:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14350" started-at="2018-02-03T10:35:30Z" finished-at="2018-02-03T10:35:44Z">
+      <class name="Qsp.Demo">
+        <test-method status="PASS" signature="openandClose()[pri:0, instance:Qsp.Demo@36d4b5c]" name="openandClose" duration-ms="14313" started-at="2018-02-03T16:05:30Z" finished-at="2018-02-03T16:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openandClose -->
+      </class> <!-- Qsp.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

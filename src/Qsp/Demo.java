@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Demo 
@@ -27,6 +28,7 @@ public class Demo
 		driver.get("http://www.google.com");
 		driver.findElement(By.id("lst-ib")).sendKeys("Selenium");
 		System.out.println("Done");
+		Reporter.log("This is done",true);
 		driver.quit();
 }
 }

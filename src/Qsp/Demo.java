@@ -3,6 +3,7 @@ package Qsp;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -21,9 +22,11 @@ public class Demo
 	driver.get("http://www.google.com");
 	driver.quit();*/
 	   
-	   System.setProperty("webdriver.chrome.driver", "./exes/chromedriver.exe");
+	   	System.setProperty("webdriver.chrome.driver", "./exes/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.google.com");
+		driver.findElement(By.id("lst-ib")).sendKeys("Selenium");
+		System.out.println("Done");
 		driver.quit();
 }
 }
